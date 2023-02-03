@@ -1,0 +1,590 @@
+@media only screen and (max-width: 600px) and (orientation: portrait) 
+  { 
+	html{
+		height:100%;
+		width:100%;
+		margin:0px;
+	}
+
+	html body{
+		height:100%;
+		width:100%;
+		margin:0px;
+		overflow:hidden;
+		background-image: url("https://kate0115.net/pic/pattern.png");
+		background-repeat: repeat;
+
+	}
+
+	html body #copyright{
+		height:100%;
+		width:100%;
+		margin:0px;
+		color:grey;
+		text-align: center;
+
+	}
+
+	html body #guess{
+		width:380px;
+		height:40px;
+		text-align: center;
+		margin:0 auto;
+		color:darkseagreen;
+		font-size: 16px;
+		font-family:Arial;
+
+	}
+
+	html body #block-wrapper{
+		width:380px;
+		margin:0 auto;
+		background: white;
+		border-radius: 20px;
+		margin-top: 150px;
+		box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);	  
+	}
+
+
+	html body input {
+    		border: none;
+		overflow: auto;
+		outline: none;
+		font-size: 16px;
+		font-family:Arial;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	}
+
+
+	html body #text{
+	    
+		width:380px;
+		text-align: left;
+		margin:0 auto;
+		font-size: 18px;
+		font-family:Arial;
+	}
+
+	html body #text #cat{
+		text-align: center;
+		margin:0 auto;
+		position: relative;
+	}
+	
+
+	html body #menu{
+		width:320px;
+		margin: 0 auto;
+		font-family:Arial;
+	}
+
+	html body #menu #terminal{
+		left:50px;
+		margin:0 auto;
+		font-family:Arial;
+	}
+
+
+	html body #timeline{
+	
+		left:0;
+		top:0;
+		background-color:#ADD8E6;
+		color:white;
+		width:320px;
+		height:700px;
+	}
+
+	html body #status{
+		position:absolute;
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+		right:330px;
+		bottom:160px;
+		z-index: 2;
+		background-image: url(status.png);
+	}
+
+
+	a:link{
+		color:black;
+		text-decoration:none;
+	}
+
+	a:visited{
+ 		color:black;
+		text-decoration:none;
+	}
+
+	.a-hover:hover {
+		color:white;
+		background:darkseagreen;
+		text-decoration:none;
+		-moz-border-radius-topleft: 5px;
+        -moz-border-radius-topright: 5px;
+        -moz-border-radius-bottomright: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px;
+	}
+	
+	#cat-pic:hover {
+	    cursor: url("https://kate0115.net/pic/cursor_grey.gif"), url("https://kate0115.net/pic/cursor.cur"), default;
+	}
+
+}
+
+
+
+@media only screen and (min-width: 601px) and (orientation : portrait) 
+  { 
+	html{
+		height:100%;
+		width:100%;
+		margin:0px;
+	}
+
+	html body{
+		height:100%;
+		width:100%;
+		margin:0px;
+		overflow:hidden;
+		background-image: url("https://kate0115.net/pic/pattern.png");
+		background-repeat: repeat;
+
+	}
+
+	html body #copyright{
+		height:100%;
+		width:100%;
+		margin:0px;
+		color:grey;
+		text-align: center;
+
+	}
+
+	html body #guess{
+		width:420px;
+		height:30px;
+		text-align: center;
+		margin:0 auto;
+		color:darkseagreen;
+		font-size: 16px;
+		font-family:Arial;
+
+	}
+
+	html body #block-wrapper{
+		width:420px;
+		margin:0 auto;
+		background: white;
+		border-radius: 20px;
+		margin-top: 150px;
+		box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	}
+
+
+	html body input {
+    		border: none;
+		overflow: auto;
+		outline: none;
+		font-size: 16px;
+		font-family:Arial;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	}
+
+	html body #marker{
+		color: black;
+		font-size:13px;
+	}
+
+	html body #text{
+		width:420px;
+		text-align: left;
+		margin:0 auto;
+		font-size: 18px;
+		font-family:Arial;
+	}
+
+	html body #text #cat{
+		text-align: center;
+		margin:0 auto;
+	}
+
+	html body #menu{
+		width:320px;
+		margin: 0 auto;
+		font-family:Arial;
+	}
+
+	html body #menu #terminal{
+		left:50px;
+		margin:0 auto;
+		font-family:Arial;
+	}
+
+
+	html body #timeline{
+	
+		left:0;
+		top:0;
+		background-color:#ADD8E6;
+		color:white;
+		width:500px;
+		height:500px;
+	}
+
+	html body #status{
+		position:absolute;
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+		right:320px;
+		bottom:160px;
+		z-index: 2;
+		background-image: url(status.png);
+	}
+
+
+	a:link{
+		color:black;
+		text-decoration:none;
+	}
+
+	a:visited{
+ 		color:black;
+		text-decoration:none;
+	}
+
+	.a-hover:hover {
+		color:white;
+		background:darkseagreen;
+		text-decoration:none;
+		-moz-border-radius-topleft: 5px;
+        -moz-border-radius-topright: 5px;
+        -moz-border-radius-bottomright: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px;
+	}
+	
+	#cat-pic:hover {
+	    cursor: url("https://kate0115.net/pic/cursor_grey.gif"), url("https://kate0115.net/pic/cursor.cur"), default;
+	}
+
+}
+
+@media only screen and (min-width: 900px) and (orientation : landscape) 
+  { 
+	html{
+		height:100%;
+		width:100%;
+		margin:0px;
+		cursor: url("https://kate0115.net/pic/cursor.cur"), pointer;
+	}
+
+	html body{
+		height:100%;
+		width:100%;
+		margin:0px;
+		overflow:hidden;
+		background-image: url("https://kate0115.net/pic/pattern.png");
+		background-repeat: repeat;
+		cursor: url("https://kate0115.net/pic/cursor.cur"), pointer;
+
+	}
+
+	html body #copyright{
+		height:100%;
+		width:100%;
+		margin:0px;
+		color:grey;
+		text-align: center;
+
+	}
+	
+	
+
+	html body #guess{
+		width:460px;
+		height:25px;
+		text-align: center;
+		margin:0 auto;
+		color:darkseagreen;
+		font-size: 16px;
+		font-family:Arial;
+
+	}
+
+	html body #block-wrapper{
+		width:460px;
+		margin:0 auto;
+		background: white;
+		border-radius: 20px;
+		margin-top: 150px;
+		box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	}
+
+
+	html body input {
+    	border: none;
+		overflow: auto;
+		outline: none;
+		font-size: 16px;
+		font-family:Arial;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	}
+
+
+	html body #text{
+		width:460px;
+		text-align: left;
+		margin:0 auto;
+		font-size: 18px;
+		font-family:Arial;
+
+	}
+
+	html body #text #cat{
+		text-align: center;
+		margin:0 auto;
+
+	}
+	
+
+	html body #menu{
+		width:400px;
+		margin: 0 auto;
+		font-family:Arial;
+	}
+
+	html body #menu #terminal{
+		left:60px;
+		margin:0 auto;
+		font-family:Arial;
+	}
+
+
+	html body #timeline{
+	
+		left:0;
+		top:0;
+		background-color:#ADD8E6;
+		color:white;
+		width:400px;
+		height:500px;
+	}
+
+	html body #status{
+		position:absolute;
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+		right:330px;
+		bottom:160px;
+		z-index: 2;
+		background-image: url(status.png);
+	}
+
+	a:link{
+		color:black;
+		text-decoration:none;
+	}
+
+	a:visited{
+ 		color:black;
+		text-decoration:none;
+	}
+
+	 a #web:hover {
+		color:white;
+		background:darkseagreen;
+		text-decoration:none;
+		-moz-border-radius-topleft: 5px;
+        -moz-border-radius-topright: 5px;
+        -moz-border-radius-bottomright: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px;
+	}
+	
+	a #research:hover {
+		color:white;
+		background:darkseagreen;
+		text-decoration:none;
+		-moz-border-radius-topleft: 5px;
+        -moz-border-radius-topright: 5px;
+        -moz-border-radius-bottomright: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px;
+	}
+	
+	a #music:hover {
+		color:white;
+		background:darkseagreen;
+		text-decoration:none;
+		-moz-border-radius-topleft: 5px;
+        -moz-border-radius-topright: 5px;
+        -moz-border-radius-bottomright: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px;
+	}
+	
+	.a-hover:hover {
+		color:white;
+		background:darkseagreen;
+		text-decoration:none;
+		-moz-border-radius-topleft: 5px;
+        -moz-border-radius-topright: 5px;
+        -moz-border-radius-bottomright: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px;
+	}
+	
+	#cat-pic:hover {
+	    cursor: url("https://kate0115.net/pic/cursor_grey.gif"), url("https://kate0115.net/pic/cursor.cur"), default;
+	}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 899px) and (orientation : landscape) 
+  { 
+	html{
+		height:100%;
+		width:100%;
+		margin:0px;
+	}
+
+	html body{
+		height:100%;
+		width:100%;
+		margin:0px;
+		overflow:hidden;
+		background-image: url("https://kate0115.net/pic/pattern.png");
+		background-repeat: repeat;
+
+	}
+
+	html body #copyright{
+		height:100%;
+		width:100%;
+		margin:0px;
+		color:grey;
+		text-align: center;
+
+	}
+
+	html body #guess{
+		width:460px;
+		height:25px;
+		text-align: center;
+		margin:0 auto;
+		color:darkseagreen;
+		font-size: 16px;
+		font-family:Arial;
+
+	}
+
+	html body #block-wrapper{
+		width:460px;
+		margin:0 auto;
+		background: white;
+		border-radius: 20px;
+		margin-top: 150px;
+		box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	}
+
+
+	html body input {
+    		border: none;
+		overflow: auto;
+		outline: none;
+		font-size: 16px;
+		font-family:Arial;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	}
+
+
+	html body #text{
+		width:460px;
+		text-align: left;
+		margin:0 auto;
+		font-size: 18px;
+		font-family:Arial;
+	}
+
+	html body #text #cat{
+		text-align: center;
+		margin:0 auto;
+	}
+
+	html body #menu{
+		width:320px;
+		margin: 0 auto;
+		font-family:Arial;
+	}
+
+	html body #menu #terminal{
+		left:60px;
+		margin:0 auto;
+		font-family:Arial;
+	}
+
+
+	html body #timeline{
+	
+		left:0;
+		top:0;
+		background-color:#ADD8E6;
+		color:white;
+		width:400px;
+		height:500px;
+	}
+
+	html body #status{
+		position:absolute;
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+		right:330px;
+		bottom:160px;
+		z-index: 2;
+		background-image: url(status.png);
+	}
+
+
+	a:link{
+		color:black;
+		text-decoration:none;
+	}
+
+	a:visited{
+ 		color:black;
+		text-decoration:none;
+	}
+
+	.a-hover:hover {
+		color:white;
+		background:darkseagreen;
+		text-decoration:none;
+		-moz-border-radius-topleft: 5px;
+        -moz-border-radius-topright: 5px;
+        -moz-border-radius-bottomright: 5px;
+        -moz-border-radius-bottomleft: 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px;
+	}
+	
+	#cat-pic:hover {
+	    cursor: url("https://kate0115.net/pic/cursor_grey.gif"), url("https://kate0115.net/pic/cursor.cur"), default;
+	}
+
+}
