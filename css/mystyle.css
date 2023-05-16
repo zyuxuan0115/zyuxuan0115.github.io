@@ -47,7 +47,7 @@
 
 
 	html body input {
-    		border: none;
+    border: none;
 		overflow: auto;
 		outline: none;
 		font-size: 16px;
@@ -307,7 +307,7 @@
 	
 
 	html body #guess{
-		width:460px;
+		width:600px;
 		height:25px;
 		text-align: center;
 		margin:0 auto;
@@ -318,11 +318,11 @@
 	}
 
 	html body #block-wrapper{
-		width:460px;
+		width:600px;
 		margin:0 auto;
 		background: white;
 		border-radius: 20px;
-		margin-top: 150px;
+		margin-top: 30px;
 		box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 	}
 
@@ -340,7 +340,7 @@
 
 
 	html body #text{
-		width:460px;
+		width:600px;
 		text-align: left;
 		margin:0 auto;
 		font-size: 18px;
@@ -356,7 +356,7 @@
 	
 
 	html body #menu{
-		width:400px;
+		width:600px;
 		margin: 0 auto;
 		font-family:Arial;
 	}
