@@ -358,7 +358,7 @@
 
 	html body #menu{
 		width:640px;
-		margin: 0 auto;
+		padding: 20px;		
 		margin-top:40px;
 		font-family:'Merriweather',Arial;
 	}
