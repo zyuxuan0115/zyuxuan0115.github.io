@@ -399,31 +399,7 @@
 		text-decoration:none;
 	}
 
-	 a #web:hover {
-		color:white;
-		background:darkseagreen;
-		text-decoration:none;
-		-moz-border-radius-topleft: 5px;
-        -moz-border-radius-topright: 5px;
-        -moz-border-radius-bottomright: 5px;
-        -moz-border-radius-bottomleft: 5px;
-        -webkit-border-radius: 5px 5px 5px 5px;
-        border-radius: 5px 5px 5px 5px;
-	}
-	
-	a #research:hover {
-		color:white;
-		background:darkseagreen;
-		text-decoration:none;
-		-moz-border-radius-topleft: 5px;
-        -moz-border-radius-topright: 5px;
-        -moz-border-radius-bottomright: 5px;
-        -moz-border-radius-bottomleft: 5px;
-        -webkit-border-radius: 5px 5px 5px 5px;
-        border-radius: 5px 5px 5px 5px;
-	}
-	
-	a #music:hover {
+	 a:hover {
 		color:white;
 		background:darkseagreen;
 		text-decoration:none;
