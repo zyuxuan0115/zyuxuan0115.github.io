@@ -25,7 +25,7 @@ $(function (){
     });
 
     $('#li1a').click(function(event){
-       $('#li1b').html("Monitor team, 05.2022 - 08.2022, Boston"); 
+       $('#li1b').css('visibility', 'visible'); 
     });
 
 
