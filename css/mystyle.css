@@ -11,7 +11,7 @@
 		width:100%;
 		margin:0px;
 		overflow:hidden;
-		background-image: url("https://kate0115.net/pic/pattern.png");
+		background-image: url("/pic/pattern.png");
 		background-repeat: repeat;
 
 	}
@@ -58,54 +58,11 @@
 	}
 
 
-	html body #text{
-	    
-		width:380px;
-		text-align: left;
-		margin:0 auto;
-		font-size: 18px;
-		font-family:Arial;
-	}
-
-	html body #text #cat{
-		text-align: center;
-		margin:0 auto;
-		position: relative;
-	}
-	
-
 	html body #menu{
 		width:320px;
 		margin: 0 auto;
 		font-family:'Merriweather',Arial;
 	}
-
-	html body #menu #terminal{
-		left:50px;
-		margin:0 auto;
-		font-family:'Merriweather',Arial;
-	}
-
-
-	html body #timeline{
-	
-		left:0;
-		top:0;
-		background-color:#ADD8E6;
-		color:white;
-		width:320px;
-		height:700px;
-	}
-
-	html body #status{
-		position:absolute;
-		box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
-		right:330px;
-		bottom:160px;
-		z-index: 2;
-		background-image: url(status.png);
-	}
-
 
 	a:link{
 		color:black;
@@ -150,7 +107,7 @@
 		width:100%;
 		margin:0px;
 		overflow:hidden;
-		background-image: url("https://kate0115.net/pic/pattern.png");
+		background-image: url("/pic/pattern.png");
 		background-repeat: repeat;
 
 	}
@@ -161,17 +118,6 @@
 		margin:0px;
 		color:grey;
 		text-align: center;
-
-	}
-
-	html body #guess{
-		width:420px;
-		height:30px;
-		text-align: center;
-		margin:0 auto;
-		color:darkseagreen;
-		font-size: 16px;
-		font-family:'Merriweather',Arial;
 
 	}
 
@@ -201,31 +147,11 @@
 		font-size:13px;
 	}
 
-	html body #text{
-		width:420px;
-		text-align: left;
-		margin:0 auto;
-		font-size: 18px;
-		font-family:'Merriweather',Arial;
-	}
-
-	html body #text #cat{
-		text-align: center;
-		margin:0 auto;
-	}
-
 	html body #menu{
 		width:320px;
 		margin: 0 auto;
 		font-family:'Merriweather',Arial;
 	}
-
-	html body #menu #terminal{
-		left:50px;
-		margin:0 auto;
-		font-family:'Merriweather',Arial;
-	}
-
 
 	html body #timeline{
 	
@@ -270,7 +196,7 @@
 	}
 	
 	#cat-pic:hover {
-	    cursor: url("https://kate0115.net/pic/cursor_grey.gif"), url("https://kate0115.net/pic/cursor.cur"), default;
+	    cursor: url("/pic/cursor_grey.gif"), url("/pic/cursor.cur"), default;
 	}
 
 }
@@ -395,7 +321,7 @@
 		width:100%;
 		margin:0px;
 		overflow:hidden;
-		background-image: url("https://kate0115.net/pic/pattern.png");
+		background-image: url("/pic/pattern.png");
 		background-repeat: repeat;
 
 	}
@@ -406,17 +332,6 @@
 		margin:0px;
 		color:grey;
 		text-align: center;
-
-	}
-
-	html body #guess{
-		width:460px;
-		height:25px;
-		text-align: center;
-		margin:0 auto;
-		color:darkseagreen;
-		font-size: 16px;
-		font-family:'Merriweather',Arial;
 
 	}
 
@@ -441,52 +356,11 @@
 		box-shadow: none;
 	}
 
-
-	html body #text{
-		width:460px;
-		text-align: left;
-		margin:0 auto;
-		font-size: 18px;
-		font-family:'Merriweather',Arial;
-	}
-
-	html body #text #cat{
-		text-align: center;
-		margin:0 auto;
-	}
-
 	html body #menu{
 		width:320px;
 		margin: 0 auto;
 		font-family:'Merriweather',Arial;
 	}
-
-	html body #menu #terminal{
-		left:60px;
-		margin:0 auto;
-		font-family:'Merriweather',Arial;
-	}
-
-
-	html body #timeline{
-	
-		left:0;
-		top:0;
-		background-color:#ADD8E6;
-		color:white;
-		width:400px;
-		height:500px;
-	}
-
-	html body #status{
-		position:absolute;
-		box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
-		right:330px;
-		bottom:160px;
-		z-index: 2;
-		background-image: url(status.png);
-	}
-
 
 	a:link{
 		color:darkseagreen;
@@ -511,7 +385,7 @@
 	}
 	
 	#cat-pic:hover {
-	    cursor: url("https://kate0115.net/pic/cursor_grey.gif"), url("https://kate0115.net/pic/cursor.cur"), default;
+	    cursor: url("/pic/cursor_grey.gif"), url("/pic/cursor.cur"), default;
 	}
 
 }
