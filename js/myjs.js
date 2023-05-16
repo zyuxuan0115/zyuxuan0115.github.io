@@ -26,6 +26,7 @@ $(function (){
 
     $('#li1a').click(function(event){
        $('#li1b').css('visibility', 'visible'); 
+       $('#li1b').css('height', '20px'); 
     });
 
 
