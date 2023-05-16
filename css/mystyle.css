@@ -281,16 +281,16 @@
 		height:100%;
 		width:100%;
 		margin:0px;
-		cursor: url("https://kate0115.net/pic/cursor.cur"), pointer;
+		cursor: url("/pic/cursor.cur"), pointer;
 	}
 
 	html body{
 		height:100%;
 		width:100%;
 		margin:0px;
-		background-image: url("https://kate0115.net/pic/pattern.png");
+		background-image: url("/pic/pattern.png");
 		background-repeat: repeat;
-		cursor: url("https://kate0115.net/pic/cursor.cur"), pointer;
+		cursor: url("/pic/cursor.cur"), pointer;
 
 	}
 
@@ -373,7 +373,7 @@
 	}
 	
 	#cat-pic:hover {
-	    cursor: url("https://kate0115.net/pic/cursor_grey.gif"), url("https://kate0115.net/pic/cursor.cur"), default;
+	    cursor: url("/pic/cursor_grey.gif"), url("/pic/cursor.cur"), default;
 	}
 
 
