@@ -15,7 +15,7 @@ $(document).ready(function(){
 	fnc();
 });
 
-var l11a_counter = 0;
+var li1a_counter = 0;
 
 $(function (){
     $('#cat-pic').click(function(event){
@@ -26,7 +26,7 @@ $(function (){
     });
 
     $('#li1a').click(function(event){
-			 if ($(li1a_counter)%2 == 0) {
+			 if (li1a_counter%2 == 0) {
 				 $('#li1b').css('visibility', 'visible'); 
          $('#li1b').css('height', '100%');
 			 } 
