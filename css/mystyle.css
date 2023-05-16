@@ -389,6 +389,10 @@
 		background-image: url(status.png);
 	}
 
+	ul {
+    list-style-type: circle;
+	}
+
 	a:link{
 		color:darkseagreen;
 		text-decoration:none;
