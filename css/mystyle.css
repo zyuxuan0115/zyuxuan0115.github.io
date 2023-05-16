@@ -29,7 +29,7 @@ hr{
 	}
 
 	html body #block-wrapper{
-		width:480px;
+		width:470px;
 		margin:0 auto;
 		background: white;
 		border-radius: 20px;
@@ -50,7 +50,7 @@ hr{
 	}
 
 	html body #menu{
-		width:420px;
+		width:410px;
 		padding: 20px;
 		font-family:'Merriweather',Arial;
 	}
