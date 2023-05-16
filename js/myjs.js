@@ -28,6 +28,11 @@ $(function (){
        $('#li1b').css('visibility', 'visible'); 
        $('#li1b').css('height', '100%'); 
     });
+    $('#li2a').click(function(event){
+       $('#li2b').css('visibility', 'visible'); 
+       $('#li2b').css('height', '100%'); 
+    });
+
 
 
 
