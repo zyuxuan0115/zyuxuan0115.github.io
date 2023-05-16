@@ -306,17 +306,6 @@
 	
 	
 
-	html body #guess{
-		width:700px;
-		height:25px;
-		text-align: center;
-		margin:0 auto;
-		color:darkseagreen;
-		font-size: 16px;
-		font-family:'Merriweather',Arial;
-
-	}
-
 	html body #block-wrapper{
 		width:700px;
 		margin:0 auto;
@@ -339,22 +328,6 @@
 	}
 
 
-	html body #text{
-		width:700px;
-		text-align: left;
-		margin:0 auto;
-		margin-top:30px;
-		font-size: 18px;
-		font-family:'Merriweather',Arial;
-
-	}
-
-	html body #text #cat{
-		text-align: center;
-		margin:0 auto;
-
-	}
-	
 
 	html body #menu{
 		width:640px;
@@ -362,33 +335,6 @@
 		margin-top:10px;
 		font-family:'Merriweather',Arial;
 	}
-
-	html body #menu #terminal{
-		left:60px;
-		margin:0 auto;
-		font-family:'Merriweather',Arial;
-	}
-
-
-	html body #timeline{
-	
-		left:0;
-		top:0;
-		background-color:#ADD8E6;
-		color:white;
-		width:400px;
-		height:500px;
-	}
-
-	html body #status{
-		position:absolute;
-		box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
-		right:330px;
-		bottom:160px;
-		z-index: 2;
-		background-image: url(status.png);
-	}
-
 	ul {
     list-style-type: circle;
 	}
