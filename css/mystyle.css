@@ -1,5 +1,5 @@
 hr{
-  border-top: 1px solid grey;
+  border-top: 1px dotted grey;
 }
 
 @media only screen and (max-width: 600px) and (orientation: portrait) 
