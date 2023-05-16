@@ -30,7 +30,7 @@ hr{
 	}
 
 	html body #block-wrapper{
-		width:700px;
+		width:500px;
 		margin:0 auto;
 		background: white;
 		border-radius: 20px;
@@ -51,7 +51,7 @@ hr{
 	}
 
 	html body #menu{
-		width:640px;
+		width:440px;
 		padding: 20px;
 		font-family:'Merriweather',Arial;
 	}
@@ -324,7 +324,7 @@ hr{
 	}
 
 	html body #block-wrapper{
-		width:460px;
+		width:700px;
 		margin:0 auto;
 		background: white;
 		border-radius: 20px;
@@ -345,7 +345,7 @@ hr{
 	}
 
 	html body #menu{
-		width:320px;
+		width:640px;
 		padding:30px;
 		font-family:'Merriweather',Arial;
 	}
