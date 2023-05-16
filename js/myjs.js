@@ -24,6 +24,12 @@ $(function (){
        }, 3500);
     });
 
+    $('#li1a').click(function(event){
+       $('#li1b').html("Monitor team, 05.2022 - 08.2022, Boston"); 
+    });
+
+
+
     $('#cat-pic').mouseover(function(){
        $('#cat-pic').css('cursor', "pic/cursor_write.gif"); 
     });
