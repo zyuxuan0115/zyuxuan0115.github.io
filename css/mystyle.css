@@ -14,7 +14,6 @@ hr{
 		height:100%;
 		width:100%;
 		margin:0px;
-		overflow:hidden;
 		background-image: url("/pic/pattern.png");
 		background-repeat: repeat;
 
@@ -30,7 +29,7 @@ hr{
 	}
 
 	html body #block-wrapper{
-		width:500px;
+		width:480px;
 		margin:0 auto;
 		background: white;
 		border-radius: 20px;
@@ -51,7 +50,7 @@ hr{
 	}
 
 	html body #menu{
-		width:440px;
+		width:420px;
 		padding: 20px;
 		font-family:'Merriweather',Arial;
 	}
