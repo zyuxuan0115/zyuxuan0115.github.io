@@ -29,17 +29,6 @@ hr{
 
 	}
 
-	html body #guess{
-		width:400px;
-		height:40px;
-		text-align: center;
-		margin:0 auto;
-		color:darkseagreen;
-		font-size: 16px;
-		font-family:'Merriweather',Arial;
-
-	}
-
 	html body #block-wrapper{
 		width:400px;
 		margin:0 auto;
