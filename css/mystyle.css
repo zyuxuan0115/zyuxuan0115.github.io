@@ -316,7 +316,7 @@
 
 
 	html body input {
-    	border: none;
+    border: none;
 		overflow: auto;
 		outline: none;
 		font-size: 16px;
@@ -331,9 +331,9 @@
 	html body #menu{
 		width:640px;
 		padding: 30px;		
-		margin-top:10px;
 		font-family:'Merriweather',Arial;
 	}
+
 	ul {
     list-style-type: circle;
 	}
