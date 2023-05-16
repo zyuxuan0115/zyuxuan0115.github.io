@@ -32,7 +32,7 @@
 		margin:0 auto;
 		color:darkseagreen;
 		font-size: 16px;
-		font-family:Arial;
+		font-family:'Merriweather',Arial;
 
 	}
 
@@ -51,7 +51,7 @@
 		overflow: auto;
 		outline: none;
 		font-size: 16px;
-		font-family:Arial;
+		font-family:'Merriweather',Arial;
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
 		box-shadow: none;
@@ -77,13 +77,13 @@
 	html body #menu{
 		width:320px;
 		margin: 0 auto;
-		font-family:Arial;
+		font-family:'Merriweather',Arial;
 	}
 
 	html body #menu #terminal{
 		left:50px;
 		margin:0 auto;
-		font-family:Arial;
+		font-family:'Merriweather',Arial;
 	}
 
 
@@ -171,7 +171,7 @@
 		margin:0 auto;
 		color:darkseagreen;
 		font-size: 16px;
-		font-family:Arial;
+		font-family:'Merriweather',Arial;
 
 	}
 
@@ -190,7 +190,7 @@
 		overflow: auto;
 		outline: none;
 		font-size: 16px;
-		font-family:Arial;
+		font-family:'Merriweather',Arial;
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
 		box-shadow: none;
@@ -206,7 +206,7 @@
 		text-align: left;
 		margin:0 auto;
 		font-size: 18px;
-		font-family:Arial;
+		font-family:'Merriweather',Arial;
 	}
 
 	html body #text #cat{
@@ -217,13 +217,13 @@
 	html body #menu{
 		width:320px;
 		margin: 0 auto;
-		font-family:Arial;
+		font-family:'Merriweather',Arial;
 	}
 
 	html body #menu #terminal{
 		left:50px;
 		margin:0 auto;
-		font-family:Arial;
+		font-family:'Merriweather',Arial;
 	}
 
 
@@ -313,7 +313,7 @@
 		margin:0 auto;
 		color:darkseagreen;
 		font-size: 16px;
-		font-family:Arial;
+		font-family:'Merriweather',Arial;
 
 	}
 
@@ -332,7 +332,7 @@
 		overflow: auto;
 		outline: none;
 		font-size: 16px;
-		font-family:Arial;
+		font-family:'Merriweather',Arial;
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
 		box-shadow: none;
@@ -344,7 +344,7 @@
 		text-align: left;
 		margin:0 auto;
 		font-size: 18px;
-		font-family:Arial;
+		font-family:'Merriweather',Arial;
 
 	}
 
@@ -365,7 +365,7 @@
 	html body #menu #terminal{
 		left:60px;
 		margin:0 auto;
-		font-family:Arial;
+		font-family:'Merriweather',Arial;
 	}
 
 
@@ -490,7 +490,7 @@
 		margin:0 auto;
 		color:darkseagreen;
 		font-size: 16px;
-		font-family:Arial;
+		font-family:'Merriweather',Arial;
 
 	}
 
@@ -509,7 +509,7 @@
 		overflow: auto;
 		outline: none;
 		font-size: 16px;
-		font-family:Arial;
+		font-family:'Merriweather',Arial;
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
 		box-shadow: none;
@@ -521,7 +521,7 @@
 		text-align: left;
 		margin:0 auto;
 		font-size: 18px;
-		font-family:Arial;
+		font-family:'Merriweather',Arial;
 	}
 
 	html body #text #cat{
@@ -532,13 +532,13 @@
 	html body #menu{
 		width:320px;
 		margin: 0 auto;
-		font-family:Arial;
+		font-family:'Merriweather',Arial;
 	}
 
 	html body #menu #terminal{
 		left:60px;
 		margin:0 auto;
-		font-family:Arial;
+		font-family:'Merriweather',Arial;
 	}
 
 
