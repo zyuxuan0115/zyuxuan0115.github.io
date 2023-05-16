@@ -15,6 +15,7 @@ $(document).ready(function(){
 	fnc();
 });
 
+var l11a_counter = 0;
 
 $(function (){
     $('#cat-pic').click(function(event){
@@ -25,8 +26,15 @@ $(function (){
     });
 
     $('#li1a').click(function(event){
-       $('#li1b').css('visibility', 'visible'); 
-       $('#li1b').css('height', '100%'); 
+			 if ($(li1a_counter%2 == 0)) {
+				 $('#li1b').css('visibility', 'visible'); 
+         $('#li1b').css('height', '100%');
+			 } 
+			 else {
+			   $('#li1b').css('visibility', 'hidden'); 
+         $('#li1b').css('height', '0px');
+			 }
+			 li1a_counter = li1a_counter+1;
     });
     $('#li2a').click(function(event){
        $('#li2b').css('visibility', 'visible'); 
