@@ -17,6 +17,7 @@ $(document).ready(function(){
 
 var li1a_counter = 0;
 var li2a_counter = 0;
+var liupenna_counter = 0;
 
 $(function (){
     $('#cat-pic').click(function(event){
@@ -37,6 +38,7 @@ $(function (){
 			 }
 			 li1a_counter = li1a_counter+1;
     });
+
     $('#li2a').click(function(event){
  			 if (li2a_counter%2 == 0) {
 		     $('#li2b').css('visibility', 'visible'); 
@@ -47,6 +49,18 @@ $(function (){
          $('#li2b').css('height', '0px');	
 			 }
 			 li2a_counter = li2a_counter + 1;
+    });
+
+    $('#li-upenn-a').click(function(event){
+ 			 if (liupenna_counter%2 == 0) {
+		     $('#li-upenn-b').css('visibility', 'visible'); 
+         $('#li-upenn-b').css('height', '100%'); 
+			 }
+			 else {
+			   $('#li-upenn-b').css('visibility', 'hidden'); 
+         $('#li-upenn-b').css('height', '0px');	
+			 }
+			 liupenna_counter = liupenna_counter + 1;
     });
 
 
@@ -71,27 +85,6 @@ $(function (){
 		$("#guess").html("");	
 	});
 	
-	$("#music").mouseover(function(){
-		$("#guess").html("my favorite music.");
-	});
-
-	$("#music").mouseout(function(){
-		$("#guess").html("");	});
-
-	$("#research").mouseover(function(){
-		$("#guess").html("my research webpage.");
-	});
-
-	$("#research").mouseout(function(){
-		$("#guess").html("");	});
-
-	$("#photo").mouseover(function(){
-		$("#guess").html("photos of my favorite stuffs.");
-	});
-
-	$("#photo").mouseout(function(){
-		$("#guess").html("");	});
-
 
 	$("#search-bar").bind("enterKey", function(e){
 		
@@ -106,31 +99,6 @@ $(function (){
 		if (textarea=='blog'){
 			$("#guess").html("please wait for web to redirect ...");
 			window.location.href="https://kate0115.net/diary";
-		}
-		if (textarea=='fanwork'){
-			$("#guess").html("please wait for web to redirect ...");
-			window.location.href="https://kate0115.net/web";
-		}
-		if (textarea=='research'){
-			$("#guess").html("please wait for web to redirect ...");
-			window.location.href="https://www.seas.upenn.edu/~zyuxuan/";
-		}
-		if (textarea=='photo'){
-			$("#guess").html("please wait for web to redirect ...");
-			window.location.href="https://kate0115.net/photo";
-		}
-		if (textarea=='music'){
-			$("#guess").html("please wait for web to redirect ...");
-			window.location.href="https://kate0115.net/music";
-
-		}
-	    if (textarea=='mastodon'){
-			$("#guess").html("please wait for web to redirect ...");
-			window.location.href="https://seaofog.com/@kate0115";
-		}
-		if (textarea=='github'){
-			$("#guess").html("please wait for web to redirect ...");
-			window.location.href="https://github.com/zyuxuan0115";
 		}
 		$(this).trigger("enterKey");
 	});

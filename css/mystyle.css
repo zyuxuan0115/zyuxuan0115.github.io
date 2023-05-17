@@ -97,10 +97,6 @@ hr{
         border-radius: 5px 5px 5px 5px;
 	}
 	
-	#cat-pic:hover {
-	    cursor: url("https://kate0115.net/pic/cursor_grey.gif"), url("https://kate0115.net/pic/cursor.cur"), default;
-	}
-
 }
 
 
@@ -199,10 +195,6 @@ hr{
         border-radius: 5px 5px 5px 5px;
 	}
 	
-	#cat-pic:hover {
-	    cursor: url("/pic/cursor_grey.gif"), url("/pic/cursor.cur"), default;
-	}
-
 }
 
 @media only screen and (min-width: 900px) and (orientation : landscape) 
@@ -301,12 +293,6 @@ hr{
         -webkit-border-radius: 5px 5px 5px 5px;
         border-radius: 5px 5px 5px 5px;
 	}
-	
-	#cat-pic:hover {
-	    cursor: url("/pic/cursor_grey.gif"), url("/pic/cursor.cur"), default;
-	}
-
-
 }
 
 
@@ -386,9 +372,4 @@ hr{
         -webkit-border-radius: 5px 5px 5px 5px;
         border-radius: 5px 5px 5px 5px;
 	}
-	
-	#cat-pic:hover {
-	    cursor: url("/pic/cursor_grey.gif"), url("/pic/cursor.cur"), default;
-	}
-
 }
