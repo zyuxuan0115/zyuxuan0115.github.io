@@ -38,7 +38,7 @@ $(function (){
 			 li1a_counter = li1a_counter+1;
     });
     $('#li2a').click(function(event){
- 			 if (li1a_counter%2 == 0) {
+ 			 if (li2a_counter%2 == 0) {
 		     $('#li2b').css('visibility', 'visible'); 
          $('#li2b').css('height', '100%'); 
 			 }
