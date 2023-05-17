@@ -12,6 +12,12 @@ hr{
 	height:0px;
 }
 
+#li-upenn-b{
+  visibility:hidden;
+	height:0px;
+}
+
+
 @media only screen and (max-width: 600px) and (orientation: portrait) 
   { 
 	html{
