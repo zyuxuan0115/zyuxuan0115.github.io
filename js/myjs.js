@@ -1,7 +1,9 @@
 var textarea;
 
 var fnc=function(){
-	$(".expand").css('color', 'darkseagreen');	
+	$("#expand-li1a").css('color', 'darkseagreen');	
+	$("#expand-li2a").css('color', 'darkseagreen');	
+	$("#expand-liupenna").css('color', 'darkseagreen');	
 };
 
 $(document).ready(function(){
