@@ -13,6 +13,7 @@ $(document).ready(function(){
 var li1a_counter = 0;
 var li2a_counter = 0;
 var liupenna_counter = 0;
+var liumicha_counter = 0;
 
 $(function (){
     $('#cat-pic').click(function(event){
@@ -58,6 +59,20 @@ $(function (){
 			 liupenna_counter = liupenna_counter + 1;
     });
 
+    $('#li-umich-a').click(function(event){
+ 			 if (liumicha_counter%2 == 0) {
+		     $('#li-umich-b').css('visibility', 'visible'); 
+         $('#li-umich-b').css('height', '100%'); 
+			 }
+			 else {
+			   $('#li-umich-b').css('visibility', 'hidden'); 
+         $('#li-umich-b').css('height', '0px');	
+			 }
+			 liumicha_counter = liumicha_counter + 1;
+    });
+
+
+
 		$("#expand-li1a").mouseover(function(){
 			$("#expand-li1a").css('color', 'white');
 		});
@@ -81,8 +96,15 @@ $(function (){
 		$("#expand-liupenna").mouseout(function(){
 			$("#expand-liupenna").css('color', 'darkseagreen');	
 		});
-	
+		
+		$("#expand-liumicha").mouseover(function(){
+			$("#expand-liumicha").css('color', 'white');
+		});
 
+		$("#expand-liumicha").mouseout(function(){
+			$("#expand-liumicha").css('color', 'darkseagreen');	
+		});
+	
     $('#cat-pic').mouseover(function(){
        $('#cat-pic').css('cursor', "pic/cursor_write.gif"); 
     });
