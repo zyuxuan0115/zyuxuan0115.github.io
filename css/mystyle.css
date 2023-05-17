@@ -17,6 +17,7 @@ html body #copyright{
 	height:100%;
 	width:100%;
 	margin:0px;
+	font-family:'Merriweather';
 	color:grey;
 	text-align: center;
 }
@@ -44,17 +45,12 @@ ul{
     list-style-type: circle;
 }
 
-a:link{
+a:link, a:visited{
 	color:darkseagreen;
 	text-decoration:none;
 }
 
-a:visited{
- 	color:darkseagreen;
-	text-decoration:none;
-}
-
-a:hover {
+a:hover, a:active {
 	color:white;
 	background:darkseagreen;
 	text-decoration:none;
