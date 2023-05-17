@@ -41,6 +41,11 @@ hr{
 	height:0px;
 }
 
+#li-umich-b{
+  visibility:hidden;
+	height:0px;
+}
+
 ul{
     list-style-type: circle;
 }
