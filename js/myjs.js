@@ -58,15 +58,30 @@ $(function (){
 			 liupenna_counter = liupenna_counter + 1;
     });
 
-		$(".expand").mouseover(function(){
-			$(".expand").css('color', 'white');
+		$("#expand-li1a").mouseover(function(){
+			$("#expand-li1a").css('color', 'white');
 		});
 
-		$(".expand").mouseout(function(){
-			$(".expand").css('color', 'darkseagreen');	
+		$("#expand-li1a").mouseout(function(){
+			$("#expand-li1a").css('color', 'darkseagreen');	
 		});
 	
+		$("#expand-li2a").mouseover(function(){
+			$("#expand-li2a").css('color', 'white');
+		});
 
+		$("#expand-li2a").mouseout(function(){
+			$("#expand-li2a").css('color', 'darkseagreen');	
+		});
+	
+		$("#expand-liupenna").mouseover(function(){
+			$("#expand-liupenna").css('color', 'white');
+		});
+
+		$("#expand-liupenna").mouseout(function(){
+			$("#expand-liupenna").css('color', 'darkseagreen');	
+		});
+	
 
     $('#cat-pic').mouseover(function(){
        $('#cat-pic').css('cursor', "pic/cursor_write.gif"); 
