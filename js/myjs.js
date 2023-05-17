@@ -17,13 +17,6 @@ var liupenna_counter = 0;
 var liumicha_counter = 0;
 
 $(function (){
-    $('#cat-pic').click(function(event){
-       $('#cat-pic').attr('src', "pic/cat1.png"); 
-       setTimeout(function(){
-           $('#cat-pic').attr('src',"pic/cat.png");
-       }, 3500);
-    });
-
     $('#li1a').click(function(event){
 			 if (li1a_counter%2 == 0) {
 				 $('#li1b').css('visibility', 'visible'); 
@@ -109,42 +102,6 @@ $(function (){
     $('#cat-pic').mouseover(function(){
        $('#cat-pic').css('cursor', "pic/cursor_write.gif"); 
     });
-
-	$('#search_bar').on('keyup', function(event) {
-  		if (event.keyCode == 13) { 
-    			event.preventDefault();
-			console.log("good bye!!!\n");
- 		}
-	});
-		
-	$("#web").mouseover(function(){
-		$("#guess").html("my fan fictions and fan arts.");
-	});
-
-	$("#web").mouseout(function(){
-		$("#guess").html("");	
-	});
-	
-
-	$("#search-bar").bind("enterKey", function(e){
-		
-/*		console.log(textarea);
-		if (textarea=='web\n'){
-			window.location.href="http://kate0115.net/blog";
-		}
-*/	});
-	$("#search-bar").keyup(function(e){
-		textarea = document.getElementById("search-bar").value;
-		console.log(textarea);			
-		if (textarea=='blog'){
-			$("#guess").html("please wait for web to redirect ...");
-			window.location.href="https://kate0115.net/diary";
-		}
-		$(this).trigger("enterKey");
-	});
-	$("#search-bar").click(function(e){
-		$("#guess").html("");
-	});
 });
 
 
