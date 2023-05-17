@@ -1,3 +1,26 @@
+html{
+	height:100%;
+	width:100%;
+	margin:0px;
+}
+
+html body{
+	height:100%;
+	width:100%;
+	margin:0px;
+	background-image: url("/pic/pattern.png");
+	background-repeat: repeat;
+
+}
+
+html body #copyright{
+	height:100%;
+	width:100%;
+	margin:0px;
+	color:grey;
+	text-align: center;
+}
+
 hr{
   border-top: 1px dotted grey;
 }
@@ -45,30 +68,6 @@ a:hover {
 
 @media only screen and (max-width: 600px) and (orientation: portrait) 
   { 
-	html{
-		height:100%;
-		width:100%;
-		margin:0px;
-	}
-
-	html body{
-		height:100%;
-		width:100%;
-		margin:0px;
-		background-image: url("/pic/pattern.png");
-		background-repeat: repeat;
-
-	}
-
-	html body #copyright{
-		height:100%;
-		width:100%;
-		margin:0px;
-		color:grey;
-		text-align: center;
-
-	}
-
 	html body #block-wrapper{
 		width:470px;
 		margin:0 auto;
@@ -103,29 +102,6 @@ a:hover {
 
 @media only screen and (min-width: 601px) and (orientation : portrait) 
   { 
-	html{
-		height:100%;
-		width:100%;
-		margin:0px;
-	}
-
-	html body{
-		height:100%;
-		width:100%;
-		margin:0px;
-		background-image: url("/pic/pattern.png");
-		background-repeat: repeat;
-
-	}
-
-	html body #copyright{
-		height:100%;
-		width:100%;
-		margin:0px;
-		color:grey;
-		text-align: center;
-
-	}
 
 	html body #block-wrapper{
 		width:700px;
@@ -158,34 +134,6 @@ a:hover {
 
 @media only screen and (min-width: 900px) and (orientation : landscape) 
   { 
-	html{
-		height:100%;
-		width:100%;
-		margin:0px;
-		cursor: url("/pic/cursor.cur"), pointer;
-	}
-
-	html body{
-		height:100%;
-		width:100%;
-		margin:0px;
-		background-image: url("/pic/pattern.png");
-		background-repeat: repeat;
-		cursor: url("/pic/cursor.cur"), pointer;
-
-	}
-
-	html body #copyright{
-		height:100%;
-		width:100%;
-		margin:0px;
-		color:grey;
-		text-align: center;
-
-	}
-	
-	
-
 	html body #block-wrapper{
 		width:700px;
 		margin:0 auto;
@@ -207,8 +155,6 @@ a:hover {
 		box-shadow: none;
 	}
 
-
-
 	html body #menu{
 		width:640px;
 		padding: 30px;		
@@ -222,30 +168,6 @@ a:hover {
 
 @media only screen and (max-width: 899px) and (orientation : landscape) 
   { 
-	html{
-		height:100%;
-		width:100%;
-		margin:0px;
-	}
-
-	html body{
-		height:100%;
-		width:100%;
-		margin:0px;
-		background-image: url("/pic/pattern.png");
-		background-repeat: repeat;
-
-	}
-
-	html body #copyright{
-		height:100%;
-		width:100%;
-		margin:0px;
-		color:grey;
-		text-align: center;
-
-	}
-
 	html body #block-wrapper{
 		width:700px;
 		margin:0 auto;
@@ -254,7 +176,6 @@ a:hover {
 		margin-top: 30px;
 		box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 	}
-
 
 	html body input {
     		border: none;
