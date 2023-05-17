@@ -65,7 +65,7 @@ a:hover, a:active {
 @media only screen and (max-width: 600px) and (orientation: portrait) 
   { 
 	html body #block-wrapper{
-		width:470px;
+		width:460px;
 		margin:0 auto;
 		background: white;
 		border-radius: 20px;
@@ -74,7 +74,7 @@ a:hover, a:active {
 	}
 
 	html body #menu{
-		width:410px;
+		width:400px;
 		padding: 20px;
 		font-family:'Merriweather',Arial;
 	}
