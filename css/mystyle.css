@@ -31,7 +31,7 @@ a:visited{
 	text-decoration:none;
 }
 
-.a-hover:hover {
+a:hover {
 	color:white;
 	background:darkseagreen;
 	text-decoration:none;
