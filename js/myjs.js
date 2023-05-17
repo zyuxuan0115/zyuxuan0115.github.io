@@ -1,14 +1,7 @@
 var textarea;
 
 var fnc=function(){
-	var color = $("#marker").css("color");
-	if (color=="rgb(0, 0, 0)") {
-		$("#marker").css("color", "darkseagreen");
-	}
-	else  {
-		$("#marker").css("color", "black");	
-	}
-	setTimeout(fnc, 1000);
+	$(".expand").css('color', 'darkseagreen');	
 };
 
 $(document).ready(function(){
@@ -63,7 +56,14 @@ $(function (){
 			 liupenna_counter = liupenna_counter + 1;
     });
 
+		$(".expand").mouseover(function(){
+			$(".expand").css('color', 'white');
+		});
 
+		$(".expand").mouseout(function(){
+			$(".expand").css('color', 'darkseagreen');	
+		});
+	
 
 
     $('#cat-pic').mouseover(function(){

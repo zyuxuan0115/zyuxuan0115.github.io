@@ -174,7 +174,7 @@ a:hover, a:active {
 	}
 
 	html body input {
-    		border: none;
+    border: none;
 		overflow: auto;
 		outline: none;
 		font-size: 16px;
