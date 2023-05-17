@@ -4,6 +4,7 @@ var fnc=function(){
 	$("#expand-li1a").css('color', 'darkseagreen');	
 	$("#expand-li2a").css('color', 'darkseagreen');	
 	$("#expand-liupenna").css('color', 'darkseagreen');	
+	$("#expand-liumicha").css('color', 'darkseagreen');	
 };
 
 $(document).ready(function(){
