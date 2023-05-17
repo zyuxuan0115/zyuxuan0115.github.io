@@ -17,6 +17,31 @@ hr{
 	height:0px;
 }
 
+ul{
+    list-style-type: circle;
+}
+
+a:link{
+	color:darkseagreen;
+	text-decoration:none;
+}
+
+a:visited{
+ 	color:darkseagreen;
+	text-decoration:none;
+}
+
+.a-hover:hover {
+	color:white;
+	background:darkseagreen;
+	text-decoration:none;
+	-moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
 
 @media only screen and (max-width: 600px) and (orientation: portrait) 
   { 
@@ -71,31 +96,6 @@ hr{
 		font-family:'Merriweather',Arial;
 	}
 
-	ul {
-    list-style-type: circle;
-	}
-
-	a:link{
-		color:darkseagreen;
-		text-decoration:none;
-	}
-
-	a:visited{
- 		color:darkseagreen;
-		text-decoration:none;
-	}
-
-	.a-hover:hover {
-		color:white;
-		background:darkseagreen;
-		text-decoration:none;
-		-moz-border-radius-topleft: 5px;
-        -moz-border-radius-topright: 5px;
-        -moz-border-radius-bottomright: 5px;
-        -moz-border-radius-bottomleft: 5px;
-        -webkit-border-radius: 5px 5px 5px 5px;
-        border-radius: 5px 5px 5px 5px;
-	}
 	
 }
 
@@ -148,53 +148,12 @@ hr{
 		box-shadow: none;
 	}
 
-	html body #marker{
-		color: black;
-		font-size:13px;
-	}
-
 	html body #menu{
 		width:640px;
 		padding:30px;
 		font-family:'Merriweather',Arial;
 	}
 
-	ul {
-    list-style-type: circle;
-	}
-
-	html body #status{
-		position:absolute;
-		box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
-		right:320px;
-		bottom:160px;
-		z-index: 2;
-		background-image: url(status.png);
-	}
-
-
-	a:link{
-		color:darkseagreen;
-		text-decoration:none;
-	}
-
-	a:visited{
- 		color:darkseagreen;
-		text-decoration:none;
-	}
-
-	.a-hover:hover {
-		color:white;
-		background:darkseagreen;
-		text-decoration:none;
-		-moz-border-radius-topleft: 5px;
-        -moz-border-radius-topright: 5px;
-        -moz-border-radius-bottomright: 5px;
-        -moz-border-radius-bottomleft: 5px;
-        -webkit-border-radius: 5px 5px 5px 5px;
-        border-radius: 5px 5px 5px 5px;
-	}
-	
 }
 
 @media only screen and (min-width: 900px) and (orientation : landscape) 
@@ -256,43 +215,6 @@ hr{
 		font-family:'Merriweather',Arial;
 	}
 
-	ul {
-    list-style-type: circle;
-	}
-
-	a:link{
-		color:darkseagreen;
-		text-decoration:none;
-	}
-
-	a:visited{
- 		color:darkseagreen;
-		text-decoration:none;
-	}
-
-	 a:hover {
-		color:white;
-		background:darkseagreen;
-		text-decoration:none;
-		-moz-border-radius-topleft: 5px;
-        -moz-border-radius-topright: 5px;
-        -moz-border-radius-bottomright: 5px;
-        -moz-border-radius-bottomleft: 5px;
-        -webkit-border-radius: 5px 5px 5px 5px;
-        border-radius: 5px 5px 5px 5px;
-	}
-	
-	.a-hover:hover {
-		color:white;
-		background:darkseagreen;
-		text-decoration:none;
-		-moz-border-radius-topleft: 5px;
-        -moz-border-radius-topright: 5px;
-        -moz-border-radius-bottomright: 5px;
-        -moz-border-radius-bottomleft: 5px;
-        -webkit-border-radius: 5px 5px 5px 5px;
-        border-radius: 5px 5px 5px 5px;
-	}
 }
 
 
@@ -349,27 +271,5 @@ hr{
 		width:640px;
 		padding:30px;
 		font-family:'Merriweather',Arial;
-	}
-
-	a:link{
-		color:darkseagreen;
-		text-decoration:none;
-	}
-
-	a:visited{
- 		color:darkseagreen;
-		text-decoration:none;
-	}
-
-	.a-hover:hover {
-		color:white;
-		background:darkseagreen;
-		text-decoration:none;
-		-moz-border-radius-topleft: 5px;
-        -moz-border-radius-topright: 5px;
-        -moz-border-radius-bottomright: 5px;
-        -moz-border-radius-bottomleft: 5px;
-        -webkit-border-radius: 5px 5px 5px 5px;
-        border-radius: 5px 5px 5px 5px;
 	}
 }
