@@ -69,8 +69,8 @@ a:hover, a:active {
 
 @media only screen and (max-width: 600px) and (orientation: portrait) 
   { 
-        html body background-image{
-          visibility: hidden;
+        html body {
+          background-image: url("");
 	}
 	html body #block-wrapper{
 		width:460px;
