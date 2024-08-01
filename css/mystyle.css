@@ -24,12 +24,8 @@ html body{
       }
 }
 
-a .no-pixel {
-  font-family: 'Merriweather',Arial;
-}
-
-a {
-  font-family: 'Pixelify Sans','Merriweather',Arial;
+a .pixel{
+  font-family: 'Pixelify Sans','Merriweather', Arial;
 }
 
 html body #copyright{
