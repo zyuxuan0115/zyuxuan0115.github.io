@@ -97,7 +97,7 @@ a:hover, a:active {
 	html body #menu{
 		width:400px;
 		padding: 20px;
-		font-family:'Merriweather',Arial;
+		font-family:'Pixelify Sans','Merriweather',Arial;
 	}
 	
 }
@@ -120,7 +120,7 @@ a:hover, a:active {
 	html body #menu{
 		width:640px;
 		padding:30px;
-		font-family:'Merriweather',Arial;
+		font-family:'Pixelify Sans','Merriweather',Arial;
 	}
 
 }
@@ -140,7 +140,7 @@ a:hover, a:active {
 	html body #menu{
 		width:640px;
 		padding: 30px;		
-		font-family:'Merriweather',Arial;
+		font-family:'Pixelify Sans','Merriweather',Arial;
 	}
 
 }
@@ -163,6 +163,6 @@ a:hover, a:active {
 	html body #menu{
 		width:640px;
 		padding:30px;
-		font-family:'Merriweather',Arial;
+		font-family:'Pixelify Sans','Merriweather',Arial;
 	}
 }
