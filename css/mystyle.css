@@ -24,6 +24,10 @@ html body{
       }
 }
 
+a {
+  font-family: 'Pixelify Sans','Merriweather',Arial;
+}
+
 html body #copyright{
 	height:100%;
 	width:100%;
