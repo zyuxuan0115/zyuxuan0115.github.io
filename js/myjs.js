@@ -97,7 +97,15 @@ $(function (){
 		$("#expand-li2a").mouseout(function(){
 			$("#expand-li2a").css('color', 'darkseagreen');	
 		});
-	
+
+		$("#expand-li3a").mouseover(function(){
+			$("#expand-li3a").css('color', 'white');
+		});
+
+		$("#expand-li3a").mouseout(function(){
+			$("#expand-li3a").css('color', 'darkseagreen');	
+		});
+
 		$("#expand-liupenna").mouseover(function(){
 			$("#expand-liupenna").css('color', 'white');
 		});
