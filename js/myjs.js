@@ -83,9 +83,9 @@ $(function (){
 
 
 
-		$("#expand-li1a").mouseover(function(){
-			$("#expand-li1a").css('color', 'white');
-		});
+    $("#expand-li1a").mouseover(function(){
+      $("#expand-li1a").css('color', 'white');
+    });
 
 		$("#expand-li1a").mouseout(function(){
 			$("#expand-li1a").css('color', 'darkseagreen');	
