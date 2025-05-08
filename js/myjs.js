@@ -13,6 +13,7 @@ $(document).ready(function(){
 
 var li1a_counter = 0;
 var li2a_counter = 0;
+var li3a_counter = 0;
 var liupenna_counter = 0;
 var liumicha_counter = 0;
 
@@ -40,6 +41,20 @@ $(function (){
 			 }
 			 li2a_counter = li2a_counter + 1;
     });
+
+    $('#li3a').click(function(event){
+ 			 if (li3a_counter%2 == 0) {
+		     $('#li3b').css('visibility', 'visible'); 
+         $('#li3b').css('height', '100%'); 
+			 }
+			 else {
+			   $('#li3b').css('visibility', 'hidden'); 
+         $('#li3b').css('height', '0px');	
+			 }
+			 li3a_counter = li3a_counter + 1;
+    });
+
+
 
     $('#li-upenn-a').click(function(event){
  			 if (liupenna_counter%2 == 0) {
