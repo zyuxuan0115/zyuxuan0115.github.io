@@ -42,12 +42,12 @@
 						<div id="li-upenn-b">
 							<ul>
 								<li><strong>Ocolos: Online COde Layout OptimizationS</strong><br/>
-								Built a code layout optimization tool that can optimize the code layout of datacenter applications at runtime by first profiling and analyzing the application, then producing an optimized binary and finally inserting the machine code from the optimized binary to the target application process.
+									<ul><li>Built Ocolos, the first online code layout optimization system for unmodified applications written in unmanaged languages. </li></ul>
 								</li>
 								<li><strong>RPG2: Robust Profile-Guided Runtime Prefetch Generation</strong><br />
-								Built an online data cache prefetching system that can profile and analyze the behavior of data memory accesses and then make the decision of whether and where to insert the prefetch instructions into the running process.
+									<ul><li>Built RPG2, a pure-software system that operates on running C/C++ programs, profiling them, injecting prefetch instructions, and then tuning those prefetches to maximize performance.</ul></li>
 								<li><strong>Quilt: Resource-aware Merging of Serverless Workflows</strong><br />
-								Building a feedback-driven serverless runtime that can merge caller-callee serverless functions to the same address space based on the call frequency and the call graph generated from distributed tracing, in order to reduce the overhead of RPCs.
+									<ul><li>Built a serverless optimizer that automatically merges workflows composed of many functions—potentially written in different languages—into a single process, reducing invocation latency, communication overhead, and long chains of cold starts.</ul></li>
 								</li>
 							</ul>
 						</div>
@@ -82,16 +82,15 @@
 				</ul>
 				<h3>Publications</h3>
 				<ul>
-					<li><strong><em>OCOLOS: Online COde Layout OptimizationS</em></strong><br /> <a href="/files/OCOLOS_MICRO55.pdf" target="_blank" class="pixel">[paper]</a> <a href="https://github.com/upenn-acg/ocolos-public" target="_blank" class="pixel">[code]</a> <a href="/files/Ocolos.key" target="_blank" class="pixel">[slides]</a><br />
-				 <u>Y. Zhang</u>, T. A. Khan, G. Pokam, B. Kasikci, H. Litz, J. Devietti.<br />
-				 Proc. International Symposium on Microarchitecture (MICRO), Oct. 2022.</li>			
-				 <li><strong><em>Online COde Layout OptimizationS via Ocolos</em></strong><br /> <a href="/files/OCOLOS_TOPPICK.pdf" target="_blank" class="pixel">[paper]</a><br />
-				 <u>Y. Zhang</u>, T. A. Khan, G. Pokam, B. Kasikci, H. Litz, J. Devietti.<br />
-				 IEEE Micro "Top Picks From the 2022 Computer Architecture Conferences", May. 2023.</li>
 				 <li><strong><em>RPG2: Robust Profile-Guided Runtime Prefetch Generation</em></strong><br /> <a href="/files/RPG2_ASPLOS_2024.pdf" target="_blank" class="pixel">[paper]</a> <a href="https://github.com/upenn-acg/RPG2-public" target="_blank" class="pixel">[code]</a> <a href="/files/RPG2.key" target="_blank" class="pixel">[slides]</a> <a href="/files/RPG2_poster.pdf" target="_blank" class="pixel">[poster]</a><br />
 				 <u>Y. Zhang</u>, N. Sobotka, S. Park, S. Jamilan, T. A. Khan, B. Kasikci,  G. Pokam, H. Litz, J. Devietti <br /> 
 			         Proc. International Conf. on Architectural Support for Programming Languages and Operating Systems (ASPLOS), May. 2024.</li>
-
+				 <li><strong><em>Online COde Layout OptimizationS via Ocolos</em></strong><br /> <a href="/files/OCOLOS_TOPPICK.pdf" target="_blank" class="pixel">[paper]</a><br />
+				 <u>Y. Zhang</u>, T. A. Khan, G. Pokam, B. Kasikci, H. Litz, J. Devietti.<br />
+				 IEEE Micro "Top Picks From the 2022 Computer Architecture Conferences", May. 2023.</li>
+                                 <li><strong><em>OCOLOS: Online COde Layout OptimizationS</em></strong><br /> <a href="/files/OCOLOS_MICRO55.pdf" target="_blank" class="pixel">[paper]</a> <a href="https://github.com/upenn-acg/ocolos-public" target="_blank" class="pixel">[code]</a> <a href="/files/Ocolos.key" target="_blank" class="pixel">[slides]</a><br />
+				 <u>Y. Zhang</u>, T. A. Khan, G. Pokam, B. Kasikci, H. Litz, J. Devietti.<br />
+				 Proc. International Symposium on Microarchitecture (MICRO), Oct. 2022.</li>
 				</ul>
 				<h3>Employment History</h3>
 				<ul>
@@ -99,7 +98,7 @@
 						<div id="li1a">Software Engineer Intern, Google LLC <a id="expand-li1a" class="pixel">[...]</a></div>
 						<div id="li1b">
 							<ul>
-								<li>TI development Team, Sunnyvale, 05.2025 - 08.2025</li>
+								<li>TI development Team, Sunnyvale, CA, 05.2025 - 08.2025</li>
 								<li><strong>TBD</strong></li>
 									<ul>
 										<li>Analyze performance bottlenecks in Google’s datacenter workloads via profiles collected at runtime. </li> 
@@ -113,7 +112,7 @@
 						<div id="li2a">Software Engineer Intern, VMware <a id="expand-li2a" class="pixel">[...]</a></div>
 						<div id="li2b">
 							<ul>
-								<li>Monitor Team, Boston, 05.2022 - 08.2022</li>
+								<li>Monitor Team, Boston, MA, 05.2022 - 08.2022</li>
 								<li><strong>Prevalidation during Pre-copy of memory pages</strong></li>
 									<ul>
 										<li>Offloaded the pre-validation of the destination VM’s page table from Virtual Machine Monitor(VMM) to ESXi (VMKernel, the hypervisor) after a VM is migrated from source to destination (VMotion), in order to reduce the contention of updating page tables on different VMs.</li> 
@@ -126,7 +125,7 @@
 					  <div id="li3a">Research Intern, Microsoft Research Asia <a id="expand-li3a" class="pixel">[...]</a></div>
 						<div id="li3b">
 							<ul>
-								<li>Network Research Group, Beijing, 01.2018 - 07.2019</li>
+								<li>Network Research Group, Beijing, China, 01.2018 - 07.2019</li>
 								<li><strong>GLane on GPU</strong></li>
 										<ul>
 											<li>Built a Linux module that can expose an NVIDIA GPU’s physical memory for direct data transfer, and a hardware stack for GPUs in a device-centric cluster to buffer and transfer data. </li>
