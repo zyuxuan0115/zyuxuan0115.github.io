@@ -9,6 +9,7 @@ html body{
 	margin:0px;
 	background-image: url("../pic/bg2.png");
 	background-repeat: repeat;
+	font-size: 18px; 
 	animation: fadeInAnimation ease 1s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
