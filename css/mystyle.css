@@ -24,7 +24,7 @@ html body{
 }
 
 .pixel{
-  font-family: 'Pixelify Sans','Merriweather', Arial;
+  font-family: 'Pixelify Sans','EB Garamond', Arial;
 }
 
 html body #copyright{
@@ -102,7 +102,7 @@ a:hover, a:active {
 	html body #menu{
 		width:400px;
 		padding: 20px;
-		font-family:'Merriweather',Arial;
+		font-family:'EB Garamond',Arial;
 	}
 
 }
@@ -125,7 +125,7 @@ a:hover, a:active {
 	html body #menu{
 		width:740px;
 		padding:30px;
-		font-family:'Merriweather',Arial;
+		font-family:'EB Garamond',Arial;
 	}
 
 }
@@ -145,7 +145,7 @@ a:hover, a:active {
 	html body #menu{
 		width:740px;
 		padding: 30px;
-		font-family:'Merriweather',Arial;
+		font-family:'EB Garamond',Arial;
 	}
 
 }
@@ -168,6 +168,6 @@ a:hover, a:active {
 	html body #menu{
 		width:740px;
 		padding:30px;
-		font-family:'Merriweather',Arial;
+		font-family:'EB Garamond',Arial;
 	}
 }
