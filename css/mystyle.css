@@ -178,3 +178,26 @@ a:hover, a:active {
 		font-size: 19px; 
 	}
 }
+
+.google-logo {
+    font-size: 100px; 
+    font-weight: bold;
+    letter-spacing: -4px; 
+    user-select: none; 
+  }
+
+  .blue {
+    color: #4285F4;
+  }
+
+  .red {
+    color: #EA4335;
+  }
+
+  .yellow {
+    color: #FBBC05;
+  }
+
+  .green {
+    color: #34A853;
+  }
