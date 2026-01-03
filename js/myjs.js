@@ -105,7 +105,13 @@ $(function (){
     $("#expand-li3a").mouseout(function(){
       $("#expand-li3a").css('color', 'darkseagreen');
     });
+    $("#expand-li4a").mouseover(function(){
+      $("#expand-li4a").css('color', 'white');
+    });
 
+    $("#expand-li4a").mouseout(function(){
+      $("#expand-li4a").css('color', 'darkseagreen');
+    });
     $("#expand-liupenna").mouseover(function(){
       $("#expand-liupenna").css('color', 'white');
     });
