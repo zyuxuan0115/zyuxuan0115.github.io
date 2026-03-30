@@ -1,7 +1,7 @@
 $(function() {
     // 1. Initialize colors and handle Hover effects
     // We group all expander IDs here
-    var $expanders = $("#expend-li0a, #expand-li1a, #expand-li2a, #expand-li3a, #expand-li4a, #expand-liupenna, #expand-liumicha");
+    var $expanders = $("#expand-li0a, #expand-li1a, #expand-li2a, #expand-li3a, #expand-li4a, #expand-liupenna, #expand-liumicha");
     
     $expanders.css('color', 'darkseagreen').hover(
         function() { $(this).css('color', 'white'); },
