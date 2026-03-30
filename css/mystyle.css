@@ -20,7 +20,7 @@ hr { border-top: 1px dashed grey; }
 ul { list-style-type: circle; }
 
 /* HIDE ELEMENTS */
-#li1b, #li2b, #li3b, #li4b, #li-upenn-b, #li-umich-b { display: none; }
+#li0b, #li1b, #li2b, #li3b, #li4b, #li-upenn-b, #li-umich-b { display: none; }
 
 /* LINKS */
 a:link, a:visited { color: darkseagreen; text-decoration: none; }
