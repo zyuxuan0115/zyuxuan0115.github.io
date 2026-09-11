@@ -99,13 +99,14 @@
                  <li><strong>gRPC Mitigation Engine</strong>
                   <ul>
                    <li>Built continuous integration and automated end-to-end testing infrastructure for the gRPC Mitigation Engine, enabling production rule deployment through Fireaxe and Chubby and improving protection against DDoS and Query-of-Death (QoD) attacks.</li>
-                   <li>Built a microbenchmark to measure the overhead introduced by the mitigation engine to the gRPC server.</li>
+                   <li>Built a microbenchmark to quantify the performance overhead introduced by the gRPC Mitigation Engine, measuring its impact on server latency, CPU/GCU usage, and memory consumption.</li>
                    <li>Designed and implemented a unit-testing framework with an easy-to-use API for mitigation authors to validate rule correctness and behavior before production deployment.</li>
                    <li>Developed a fuzz-testing framework that generates randomized mitigation rules and gRPC requests to uncover server crashes and robustness issues, while providing reusable fuzzing interfaces for mitigation authors to stress-test their own rules.</li> 
                   </ul>
                  <li><strong>gRPC C++ Connection Throughput Microbenchmark monitoring</strong></li>
                  <ul>
-                   <li>Built gRPC C++ connection throughput benchmark to measure different metrics, including latency, GCU and memory consumption, and added the microbenchmark to perf guitar workflow test as a nightly run for performance monitoring and presubmit</li>
+                   <li>Built a gRPC C++ connection-throughput microbenchmark to measure key performance metrics, including latency, GCU usage, and memory consumption.</li>
+                   <li>Integrated the benchmark into the performance testing pipeline for nightly monitoring and presubmit checks, enabling early detection and prevention of performance regressions.</li>
                  </ul>
                  <li><strong>gRPC in Prod xDS ORCA-to-LRS Propagation Test</strong></li>
                   <ul>
