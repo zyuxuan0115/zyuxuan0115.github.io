@@ -99,9 +99,14 @@
                  <li><strong>gRPC Mitigation Engine</strong>
                   <ul>
                    <li>Built continuous integration and automated end-to-end testing infrastructure for the gRPC Mitigation Engine, enabling production rule deployment through Fireaxe and Chubby and improving protection against DDoS and Query-of-Death (QoD) attacks.</li>
+                   <li>Built a microbenchmark to measure the overhead introduced by the mitigation engine to the gRPC server.</li>
                    <li>Designed and implemented a unit-testing framework with an easy-to-use API for mitigation authors to validate rule correctness and behavior before production deployment.</li>
                    <li>Developed a fuzz-testing framework that generates randomized mitigation rules and gRPC requests to uncover server crashes and robustness issues, while providing reusable fuzzing interfaces for mitigation authors to stress-test their own rules.</li> 
                   </ul>
+                 <li><strong>gRPC C++ Connection Throughput Microbenchmark monitoring</strong></li>
+                 <ul>
+                   <li>Built gRPC C++ connection throughput benchmark to measure different metrics, including latency, GCU and memory consumption, and added the microbenchmark to perf guitar workflow test as a nightly run for performance monitoring and presubmit</li>
+                 </ul>
                  <li><strong>gRPC in Prod xDS ORCA-to-LRS Propagation Test</strong></li>
                   <ul>
                     <li>Implement querying Monarch programmatically for GSLB (Gloabal Service Load Balancer) load reports and named query cost/utilization to verify if it aligns with the metrics reported from the gRPC clients</li>
