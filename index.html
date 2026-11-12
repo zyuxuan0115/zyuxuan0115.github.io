@@ -101,6 +101,10 @@
                    <li><strong>gRPC C++ PSP Failure Testing</strong>: Expanded test coverage for gRPC C++ PSP based on production postmortems and investigations of stuck RPCs, increasing coverage to approximately 90.6%.</li>
                    <li><strong>PSP TaskUID Support</strong>: Designed and implemented gRPC support for the PSP Virtualization Cookie (TaskUID) to prevent packet-steering attacks against TI VMs. Added cookie negotiation and programming during the LOAS2 handshake, with a safe fallback to LOAS software encryption.</li>
                  </ul>
+                 <li><strong>Open-Source gRPC</strong></li>
+                 <ul>
+                   <li><strong>Local Address Access in Server Context</strong>: Implemented a C API to expose server-side local connection addresses. Propagated local socket URIs through the legacy chttp2 and PH2 server transports to Call and Channelz. Added unit and end-to-end tests covering synchronous, callback, asynchronous, proxy, and in-process test fixtures.</li>
+                 </ul>
                  <li><strong>gRPC Mitigation Engine</strong></li>
                  <ul>
                    <li><strong>Fireaxe Integration Testing</strong>: Built continuous integration and automated end-to-end testing infrastructure for the gRPC Mitigation Engine to support production rule deployment through Fireaxe and Chubby and strengthen protection against distributed denial-of-service (DDoS) and Query-of-Death (QoD) attacks.</li>
