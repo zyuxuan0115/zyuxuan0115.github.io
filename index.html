@@ -95,31 +95,34 @@
             <div id="li0a">Software Engineer, Google LLC. <a id="expand-li0a" class="pixel">[...]</a></div>
             <div id="li0b">
                <ul>
-                 <li>RPC (gRPG + Stubby) Team, Sunnyvale, CA, 01.2026 - Present</li>
-                 <li><strong>gRPC Mitigation Engine</strong>
-                  <ul>
-                   <li>Built continuous integration and automated end-to-end testing infrastructure for the gRPC Mitigation Engine, enabling production rule deployment through Fireaxe and Chubby and improving protection against DDoS and Query-of-Death (QoD) attacks.</li>
-                   <li>Built a microbenchmark to quantify the performance overhead introduced by the gRPC Mitigation Engine, measuring its impact on server latency, CPU/GCU usage, and memory consumption.</li>
-                   <li>Designed and implemented a unit-testing framework with an easy-to-use API for mitigation authors to validate rule correctness and behavior before production deployment.</li>
-                   <li>Developed a fuzz-testing framework that generates randomized mitigation rules and gRPC requests to uncover server crashes and robustness issues, while providing reusable fuzzing interfaces for mitigation authors to stress-test their own rules.</li> 
-                  </ul>
-                 <li><strong>gRPC C++ Connection Throughput Microbenchmark Monitoring</strong></li>
+                 <li>gRPC Team, Sunnyvale, CA, 01.2026 - Present</li>
+                 <li><strong>gRPC PSP Security Protocol</strong></li>
                  <ul>
-                   <li>Built a gRPC C++ connection-throughput microbenchmark to measure key performance metrics, including latency, GCU usage, and memory consumption.</li>
-                   <li>Integrated the benchmark into the performance testing pipeline for nightly monitoring and presubmit checks, enabling early detection and prevention of performance regressions.</li>
+                   <li><strong>gRPC C++ PSP Failure Testing</strong>: Expanded test coverage for gRPC C++ PSP based on production postmortems and investigations of stuck RPCs, increasing coverage to approximately 90.6%.</li>
+                   <li><strong>PSP TaskUID Support</strong>: Designed and implemented gRPC support for the PSP Virtualization Cookie (TaskUID) to prevent packet-steering attacks against TI VMs. Added cookie negotiation and programming during the LOAS2 handshake, with a safe fallback to LOAS software encryption.</li>
                  </ul>
-                 <li><strong>gRPC in Prod xDS ORCA-to-LRS Propagation Test</strong></li>
-                  <ul>
-                    <li>Implement querying Monarch programmatically for GSLB (Gloabal Service Load Balancer) load reports and named query cost/utilization to verify if it aligns with the metrics reported from the gRPC clients in C++, Java and Go.</li>
-                  </ul>
-                 <li><strong>Cross-Language gRPC/Stubby ExtProc Interop Test Framework</strong></li>
-                  <ul>
-                    <li>Implemented a cross-language gRPC/Stubby interoperability testing framework using Guitar (Google Unified Integration Testing and Releasing) to validate correct interactions between gRPC filters and external processors (ExtProc)</li>
-                  </ul>
-                 <li><strong>Stubby PSP SADB Channel Eviction</strong></li>
-                  <ul>
-                    <li>Implement logic to evict Stubby C++ client and server channels when the SADB (Security Association Database, hardware-level database designed to manage encryption keys for NIC) reaches capacity, causing encryption to transition from hardware encryption to LOAS (Low Overhead Authentication Service) software encryption.</li>
-                  </ul>
+                 <li><strong>gRPC Mitigation Engine</strong></li>
+                 <ul>
+                   <li><strong>Fireaxe Integration Testing</strong>: Built continuous integration and automated end-to-end testing infrastructure for the gRPC Mitigation Engine to support production rule deployment through Fireaxe and Chubby and strengthen protection against distributed denial-of-service (DDoS) and Query-of-Death (QoD) attacks.</li>
+                   <li><strong>Unit Testing Framework</strong>: Designed and implemented a unit testing framework with a simple API that enables mitigation authors to validate rule correctness and behavior before production deployment.</li>
+                   <li><strong>Fuzz Testing Framework</strong>: Built a fuzz testing framework that generates randomized mitigation rules and gRPC requests to uncover server crashes and robustness issues. Provided reusable interfaces for mitigation authors to stress-test their rules.</li>
+                   <li><strong>DiRT Production Readiness Testing</strong>: Conducted live Borg DiRT tests to meet Fireaxe production readiness requirements for the gRPC C++ Mitigation Engine. Deployed rules through Fireaxe and verified system behavior using Monarch and /streamz metrics.</li>
+                 </ul>
+                 <li><strong>gRPC C++ Microbenchmark Monitoring</strong></li>
+                 <ul>
+                   <li><strong>Connection Throughput Benchmark</strong>: Built a gRPC C++ microbenchmark to measure connection performance, including latency, GCU usage, and memory consumption. Integrated it into nightly monitoring and presubmit checks to detect performance regressions early.</li>
+                   <li><strong>Connection Scaling Benchmark</strong>: Identified and resolved five root causes of failures in nightly Guitar scaling tests with 250,000 connections.</li>
+                   <li><strong>Mitigation Rule Evaluation Benchmark</strong>: Built a microbenchmark to quantify the overhead of gRPC Mitigation Engine rule evaluation, measuring its impact on server latency, CPU/GCU usage, and memory consumption.</li>
+                 </ul>
+                 <li><strong>gRPC OneRPC</strong></li>
+                 <ul>
+                   <li><strong>xDS ORCA-to-LRS Metric Propagation Testing</strong>: Implemented programmatic Monarch queries to retrieve Global Service Load Balancer (GSLB) load reports and named query cost and utilization metrics, verifying that they matched the metrics reported by gRPC clients.</li>
+                   <li><strong>Cross-Language gRPC/Stubby Interoperability Testing</strong>: Built a cross-language interoperability testing framework for gRPC and Stubby using Guitar (Google Unified Integration Testing and Releasing) to validate interactions between gRPC filters and external processors (ExtProc).</li>
+                 </ul>
+                 <li><strong>Stubby PSP Security Protocol</strong></li>
+                 <ul>
+                   <li><strong>SADB Channel Eviction</strong>: Implemented Stubby C++ client and server channel eviction to fall back to LOAS software encryption when the Security Association Database (SADB) fills.</li>
+                 </ul>
                </ul>
             </div>
           </li>
